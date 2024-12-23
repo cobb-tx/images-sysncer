@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/gplates/pygmt:latest docker://registry.cn-hangzhou.aliyuncs.com/istio-testing00/build-tools-proxy:latest
+        skopeo copy docker://docker.io/lozyme/sockd:latest docker://registry.cn-hangzhou.aliyuncs.com/istio-testing00/build-tools-proxy:latest
